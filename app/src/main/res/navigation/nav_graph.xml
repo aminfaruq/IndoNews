@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:id="@+id/nav_graph"
+            app:startDestination="@id/navigation_home">
+
+
+    <fragment android:id="@+id/navigation_favorite"
+              android:name="com.zeeb.newsindo.screens.favorite.FavoriteFragment"
+              android:label="fragment_favorite"
+              tools:layout="@layout/fragment_favorite">
+
+        <action android:id="@+id/action_navigation_favorite_to_detailActivity"
+                app:destination="@id/detailActivity"/>
+    </fragment>
+
+    <fragment android:id="@+id/navigation_home"
+              android:name="com.zeeb.newsindo.screens.home.MainFragment"
+              android:label="fragment_main"
+              tools:layout="@layout/fragment_main">
+
+        <action android:id="@+id/action_navigation_home_to_detailActivity"
+                app:destination="@id/detailActivity"/>
+    </fragment>
+
+    <activity android:id="@+id/detailActivity"
+              android:name="com.zeeb.newsindo.screens.detail.DetailActivity"
+              android:label="activity_detail"
+              tools:layout="@layout/activity_detail"/>
+
+
+</navigation>
