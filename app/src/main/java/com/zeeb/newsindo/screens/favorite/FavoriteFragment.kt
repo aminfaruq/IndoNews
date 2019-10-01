@@ -11,6 +11,7 @@ import com.zeeb.newsindo.R
 
 class FavoriteFragment : Fragment() {
 
+    //buat favoritenya
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
