@@ -8,6 +8,7 @@ import org.koin.core.context.startKoin
 import org.koin.core.logger.Level
 
 class MainApp : Application() {
+    //dasar kimaq
 
     override fun onCreate() {
         super.onCreate()
