@@ -22,6 +22,9 @@ val appModule = module {
     single { createWebService<NewsServices>(get(),"https://newsapi.org/v2/") }
 }
 
+//1
+
+
 
 val dataModule = module {
 
