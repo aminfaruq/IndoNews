@@ -9,6 +9,8 @@ import org.koin.core.logger.Level
 
 class MainApp : Application() {
 
+    //perkenalkan gw mujib orang paling ganteng sedunia
+    
     override fun onCreate() {
         super.onCreate()
 
