@@ -12,6 +12,7 @@ class MainApp : Application() {
     override fun onCreate() {
         super.onCreate()
 
+        //nih gw juga ganteng banget kayak sasuke lokal
 
         startKoin {
             androidLogger(Level.DEBUG)
